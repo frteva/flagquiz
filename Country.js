@@ -23,6 +23,7 @@ class Country {
     }
 
     flagRender() {
+        document.querySelector("#flag").innerHTML = "";
         document.querySelector("#flag").insertAdjacentHTML("afterbegin", `<h1>${this.#datas.flag}</h1>` );
     }
 }

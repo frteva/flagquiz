@@ -2,6 +2,7 @@
   "name": "Flag Quiz",
   "version": "1.0.0",
   "description": "ProgWeb 23-24 Final Exam",
+  "browserslist": "> 0.25%, not dead",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
